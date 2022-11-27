@@ -11,7 +11,7 @@ type CartItem = {
 	quantity: number;
 };
 
-type ShoppingCart = {
+type ShoppingCartCtx = {
 	cartQuantity: number;
 	cartItems: CartItem[];
 	openCart: () => void;
@@ -22,7 +22,7 @@ type ShoppingCart = {
 	removeFromCart: (id: number) => void;
 };
 
-const ShoppingCartContext = createContext({} as ShoppingCart);
+const ShoppingCartContext = createContext({} as ShoppingCartCtx);
 
 export function useShoppingCart() {
 	return useContext(ShoppingCartContext);
