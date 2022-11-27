@@ -1,0 +1,30 @@
+[
+	{
+		"id": 1,
+		"name": "Black Forest",
+		"price": 35.0,
+		"image": "assets/jacob-thomas-6jHpcBPw7i8-unsplash.jpg",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+	},
+	{
+		"id": 2,
+		"name": "Cheese Cake",
+		"price": 30.0,
+		"image": "assets/diana-scutariu-dvYz39Xeu7A-unsplash.jpg",
+		"description": "Duis convallis convallis tellus id interdum velit laoreet. Laoreet id donec ultrices tincidunt arcu non. Amet nisl purus in mollis nunc sed id. Fermentum dui faucibus in ornare. Ac orci phasellus egestas tellus rutrum tellus pellentesque eu tincidunt. Nisl purus in mollis nunc sed id semper risus in. Diam vulputate ut pharetra sit amet aliquam id. Posuere lorem ipsum dolor sit amet consectetur adipiscing elit duis. Metus dictum at tempor commodo ullamcorper a lacus vestibulum. Arcu dictum varius duis at consectetur. Sed cras ornare arcu dui vivamus. Pharetra sit amet aliquam id. Amet mauris commodo quis imperdiet massa tincidunt nunc."
+	},
+	{
+		"id": 3,
+		"name": "Strawberry Cake",
+		"price": 25.0,
+		"image": "assets/alexandra-khudyntseva-u95_MqFUaQg-unsplash.jpg",
+		"description": "Nisl tincidunt eget nullam non nisi est sit. Congue eu consequat ac felis donec et odio pellentesque. Sit amet nisl purus in mollis nunc sed id semper. Lectus sit amet est placerat. Quis enim lobortis scelerisque fermentum dui. Amet venenatis urna cursus eget. Quis imperdiet massa tincidunt nunc pulvinar sapien. Sed augue lacus viverra vitae. Varius sit amet mattis vulputate enim nulla aliquet porttitor. A pellentesque sit amet porttitor eget dolor morbi non. Facilisi nullam vehicula ipsum a. Dolor sit amet consectetur adipiscing elit duis tristique. Mauris a diam maecenas sed enim ut sem viverra. Quis blandit turpis cursus in hac. Orci sagittis eu volutpat odio. Convallis posuere morbi leo urna molestie at elementum eu facilisis. Auctor elit sed vulputate mi sit amet. Felis donec et odio pellentesque diam volutpat. Venenatis a condimentum vitae sapien."
+	},
+	{
+		"id": 4,
+		"name": "Brownie",
+		"price": 50.0,
+		"image": "assets/anna-przepiorka-LjtviHokbr4-unsplash.jpg",
+		"description": "Purus ut faucibus pulvinar elementum. Eget mauris pharetra et ultrices neque. Nam aliquam sem et tortor. Iaculis eu non diam phasellus vestibulum lorem. Tellus cras adipiscing enim eu turpis. Eu ultrices vitae auctor eu augue ut lectus arcu bibendum. Elit duis tristique sollicitudin nibh sit amet commodo. Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi tristique. Dolor sed viverra ipsum nunc aliquet bibendum. Euismod nisi porta lorem mollis. Sed id semper risus in hendrerit. Ullamcorper sit amet risus nullam eget felis eget nunc lobortis. Ut ornare lectus sit amet est placerat. Libero nunc consequat interdum varius sit. In vitae turpis massa sed. Vitae aliquet nec ullamcorper sit amet risus nullam. Integer malesuada nunc vel risus commodo."
+	}
+]

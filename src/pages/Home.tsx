@@ -1,3 +1,9 @@
+import { ProductList } from "./ProductList";
+
 export function Home() {
-	return <div>Home</div>;
+	return (
+		<div>
+			<ProductList />
+		</div>
+	);
 }

@@ -1,22 +1,21 @@
 import { Container } from "react-bootstrap";
 import { Route, Routes } from "react-router-dom";
-import { Checkout } from "./pages/Checkout";
-import { Home } from "./pages/Home";
-import { Product } from "./pages/Product";
 import { Navigation } from "./components/Navigation";
+import { ShoppingCartProvider } from "./context/ShoppingCartContext";
+import { Home } from "./pages/Home";
+import ProductDescription from "./pages/ProductDescription";
 
 function App() {
 	return (
-		<>
+		<ShoppingCartProvider>
 			<Navigation />
 			<Container className="mb-4">
 				<Routes>
 					<Route path="/" element={<Home />} />
-					<Route path="/:id" element={<Product />} />
-					<Route path="/checkout" element={<Checkout />} />
+					<Route path="/:id" element={<ProductDescription />} />
 				</Routes>
 			</Container>
-		</>
+		</ShoppingCartProvider>
 	);
 }
 
