@@ -5,7 +5,7 @@ import { useShoppingCart } from "../context/ShoppingCartContext";
 export function Navigation() {
 	const { openCart, cartQuantity } = useShoppingCart();
 	return (
-		<Navbar className="bg-white shadow-sm mb-3" sticky="top">
+		<Navbar className="bg-white shadow-sm" sticky="top">
 			<Container>
 				<Navbar.Brand href="/">Baka Bakers</Navbar.Brand>
 				<Nav className="me-auto">

@@ -16,11 +16,11 @@ export function Product({ id, name, price, image }: ProductProps) {
 	const quantity = getItemQuantity(id);
 
 	return (
-		<Card className="h-100" onClick={() => navigate(`/${id}`)}>
-			<Card.Img variant="top" src={image} height="300rem" style={{ objectFit: "cover" }} alt={name} />
+		<Card className="h-100" style={{ cursor: "pointer" }}>
+			<Card.Img variant="top" src={image} height="300rem" style={{ objectFit: "cover" }} alt={name} onClick={() => navigate(`/${id}`)} />
 			<Card.Body className="d-flex flex-column text-center">
-				<Card.Title>{name}</Card.Title>
-				<Card.Text>
+				<Card.Title onClick={() => navigate(`/${id}`)}>{name}</Card.Title>
+				<Card.Text onClick={() => navigate(`/${id}`)}>
 					<span>{formatCurrency(price)}</span>
 				</Card.Text>
 				<div className="mt-auto">
