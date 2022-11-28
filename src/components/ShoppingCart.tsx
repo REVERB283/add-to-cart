@@ -36,7 +36,7 @@ export function ShoppingCart({ isOpen }: ShoppingCartProps) {
 						<CartItem key={item.id} {...item} />
 					))}
 					<div className="ms-auto fw-bold fs-5">Total: {formatCurrency(findTotal)}</div>
-					{cartItems.length > 1 && (
+					{cartItems.length > 0 && (
 						<div className="ms-auto">
 							<Button variant="success" onClick={proceedToCheckout}>
 								CHECKOUT
