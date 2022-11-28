@@ -23,7 +23,7 @@ export default function ProductDescription() {
 					<div className="fw-bold fs-2">Description</div>
 					<div className="fs-5">{item?.description}</div>
 					<hr />
-					<div className="d-flex justify-content-center">
+					<div className="d-flex justify-content-center mb-5">
 						{quantity === 0 ? (
 							<Button onClick={() => increaseCartQuantity(Number(id))}>ADD TO CART</Button>
 						) : (

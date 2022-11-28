@@ -9,7 +9,7 @@ function App() {
 	return (
 		<ShoppingCartProvider>
 			<Navigation />
-			<Container fluid className="mb-4">
+			<Container fluid className="mb-4 px-0">
 				<Routes>
 					<Route path="/" element={<Home />} />
 					<Route path="/:id" element={<ProductDescription />} />
