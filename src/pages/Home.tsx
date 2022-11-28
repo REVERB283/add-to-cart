@@ -4,7 +4,7 @@ import { ProductList } from "./ProductList";
 export function Home() {
 	return (
 		<div>
-			<div className="d-flex justify-content-center g-3" style={{ height: "20vh", background: "#f1ede4", width: "100vw" }}>
+			<div className="d-flex justify-content-center g-3" style={{ height: "20vh", background: "#f1ede4" }}>
 				<Container>
 					<Card style={{ marginTop: "5rem", marginBottom: "5rem" }}>
 						<Card.Body>
