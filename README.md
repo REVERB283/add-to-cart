@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Deployed URL
 
-This project was deployed on [Baka Bakers](https://add-to-cart-bakery.netlify.app/).
+This project was deployed on [Baka Bakers](https://baka-bakers.netlify.app/).
 
 ## Available Scripts
 
